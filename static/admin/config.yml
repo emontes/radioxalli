@@ -13,10 +13,10 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Cover Image", name: "cover", widget: "image"}
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Fecha de Publicación", name: "date", widget: "datetime"}
+      - {label: "Imagen de Portada", name: "cover", widget: "image"}
       - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Category", name: "category", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Categoría", name: "category", widget: "string"}
+      - {label: "Etiquetas", name: "tags", widget: "list"}
+      - {label: "Cuerpo", name: "body", widget: "markdown"}
