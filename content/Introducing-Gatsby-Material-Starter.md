@@ -1,14 +1,13 @@
 ---
-title: "Introducing Gatsby Material Starter"
-cover: "starter-logo-1024.png"
-category: "gatsby"
+title: Introducing Gatsby Material Starter
+date: 2018-07-02
+cover: assets/logo-960x622.jpg
+slug: radio-xalli
+category: radio
 tags:
-
-    - gatsby
-    - material
-    - starter
-
-date: "2018-07-02"
+  - radio
+  - acerca
+  - xalli
 ---
 
 Around a year ago, this project was one of the first ones ported to the `v1` version of GatsbyJS.
