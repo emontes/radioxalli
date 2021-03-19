@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import UserLinks from "../UserLinks";
 import config from "../../../data/SiteConfig";
 import "./Footer.scss";
+import Radio from "../Radio"
 
 class Footer extends Component {
   render() {
@@ -15,6 +16,7 @@ class Footer extends Component {
     }
     return (
       <footer className={fixedFooter ? "footer footer-fixed" : "footer"}>
+        <Radio />
         {userLinks ? <UserLinks config={config} labeled /> : null}
         <div className="notice-container">
           <div className="copyright">

@@ -5,7 +5,6 @@ import Navigation from "../components/Navigation";
 import config from "../../data/SiteConfig";
 import "./index.scss";
 import "./global.scss";
-import Radio from "../components/radio"
 
 export default class MainLayout extends React.Component {
   render() {
@@ -18,7 +17,6 @@ export default class MainLayout extends React.Component {
           </Helmet>
           {children}
         </div>
-        <Radio/>
       </Navigation>
     );
   }
