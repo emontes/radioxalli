@@ -1,6 +1,6 @@
 ---
 title: Presentamos Radio Xalli en Línea
-date: 2018-07-02T00:00:00.000Z
+date: 2021-03-19T21:49:17.128Z
 cover: assets/logo-960x622.jpg
 slug: presentamos-radio-xalli
 category: radio
@@ -13,92 +13,66 @@ En el 2017 nos dimos a la tarea de iniciar nuestras transmisiones por internet.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"> <a href="https://twitter.com/97Xalli/status/916522065460527104">July 6, 2017</a></blockquote>
 
-And now, it's super exciting for me to announce the `v2` version of `Gatsby Material Starter` with the support of the newest Gatsby v2 features!
+Y ahora estamos super emocionados de presentar nuestra nueva App para `Radio Xalli 97.9 FM` con soporte para escucharla desde tu computadora o celular sin necesidad de Tener una cuenta de Facebook.  
 
-You can also visit [my personal blog](https://vagr9k.me) if you want to see a fully implemented blog based on this starter.
+Esta App es del tipo Progressive Web App (PWA), esto quiere decir que funciona en cualquier tipo de celular tanto Android como IOS, sin tener que darle mantenimiento como aplicación independiente.
 
-New features are:
+Ventajas de las Aplicaciones Progresivas (PWA):
 
-* NetlifyCMS support
-* Complete optimization of all image assets via `gatsby-image` for faster loading times
-* New date formatting options
-* Netlify build configuration to make deploys easier
-* Less restrictive URL options
-* Bug fixes related to dates and sorting
+* Son apps seguras.
+* Funcionan con (casi) cualquier navegador.
+* Son responsive, se adaptan a cualquier tamaño de pantalla.
+* Funcionan off-line.
+* Están permanentemente actualizadas.
+* Se pueden encontrar a través de los motores de búsqueda.
+* Se pueden enlazar a través de una URL.
+* Se pueden "instalar" anclándolas al escritorio de tu móvil.
 
-Full feature list:
+Tecnología que se está Empleando:
 
-* Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
-* [React-MD](https://github.com/mlaursen/react-md) for Material design
+* [Gatsbyjs ](https://www.gatsbyjs.com/)es una Biblioteca para [React](https://es.reactjs.org/) que permite que el sitio tenga una velocidad de desplegado notable, esto hará que se cargue ultra rápido en el celular y que los motores de búsqueda como Google le den una alta posición.
+* [NetlifyCMS](https://www.netlifycms.org/docs/intro/) permite el soporte para crear/editar contenido en la App mediante un panel de control de Administracion.
+* [React-MD](https://github.com/mlaursen/react-md) for Material design permite editar textos en Formato Mark Down, que es mucho más sencillo que el HTML.
 
   * Integrated FontAwesome support
   * Integrated Material Icons support
 * SASS/SCSS styling
-* [NetlifyCMS](https://www.netlifycms.org/docs/intro/) support for creating/editing posts via admin panel
-* Separate components for everything
-* High configurability:
-
-  * User information
-  * User social profiles
-  * Copyright information
-  * More!
-* Author segment
-
-  * Name
-  * Location
-  * Description
-  * Links
-  * Follow Me button
 * Posts in Markdown
+* * Code syntax highlighting
+  * Permite empotrar videos de YouTube.
+  * Permite empotrar Tweets
+* Etiquetas
 
-  * Code syntax highlighting
-  * Embedded YouTube videos
-  * Embedded Tweets
-* Tags
+  * Una página separada para cada Etiqueta
+* Categorías
 
-  * Seprate page for posts under each tag
-* Categories
+  * Una página separada para los posts de cada categoría.
+* Segmento de posts sugeridos
+* Soporte para [Disqus](https://disqus.com), un sistema que permite que los visitantes comenten los posts.
 
-  * Separate page for posts under each category
-* Suggested posts segment
-* Disqus support
+  * Notificaciones acerca de nuevos comentarios en disqus
+* Diseño Responsivo
 
-  * Notifications about new disqus comments
-* Responsive design
+  * En los móviles, Disqus se carga solamente después de expandir la sección de comentarios para mejor desempeño.
+* Características Sociales
 
-  * On mobile, Disqus is loaded only after expanding comments for better performance
-* Social features
-
-  * Twitter tweet button
+  * Botón de Twitter para enviar tweet
   * Facebook share/share count
   * Reddit share/share count
-  * Google+ share button
   * LinkedIn share button
   * Telegram share button
 * SEO
 
-  * Sitemap generation
+  * Generación de Sitemap
   * robots.txt
-  * General description tags
+  * Etiquetas Generales de description
   * Schema.org JSONLD (Google Rich Snippets)
-  * OpenGraph Tags (Facebook/Google+/Pinterest)
+  * OpenGraph Tags (Facebook/Pinterest)
   * Twitter Tags (Twitter Cards)
 * RSS feeds
-* Loading progress for slow networks
-* Offline support
-* Web App Manifest support
-* Automatic image transformation and size optimization
-* Netlify deploy configuration
-* Google Analytics support
-* Development tools
-
-  * ESLint for linting
-  * Prettier for code style
-  * Remark-Lint for linting Markdown
-  * write-good for linting English prose
-  * gh-pages for deploying to GitHub pages
-  * CodeClimate configuration file and badge
-
-NOTE: Take a look at [gatsby-advanced-starter](https://github.com/Vagr9K/gatsby-advanced-starter) if you prefer building UI from scratch and/or only interested in fundamental features.
-
-More information is available on [GitHub repository page](https://github.com/Vagr9K/gatsby-material-starter).
+* Progreso de cargado para redes lentas
+* Soporte Offline
+* Soporte para Web App Manifest
+* Transformación automática de imágenes y optimización de tamaño
+* Configuración para Netlify deploy
+* Soporte para Google Analytics support
