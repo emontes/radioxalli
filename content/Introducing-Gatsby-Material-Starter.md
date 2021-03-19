@@ -1,8 +1,8 @@
 ---
-title: Introducing Gatsby Material Starter
+title: Presentamos Radio Xalli en Línea
 date: 2018-07-02
 cover: assets/logo-960x622.jpg
-slug: radio-xalli
+slug: presentamos-radio-xalli
 category: radio
 tags:
   - radio
