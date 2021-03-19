@@ -17,7 +17,7 @@ Y ahora estamos super emocionados de presentar nuestra nueva App para `Radio Xal
 
 Esta App es del tipo Progressive Web App (PWA), esto quiere decir que funciona en cualquier tipo de celular tanto Android como IOS, sin tener que darle mantenimiento como aplicación independiente.
 
-Ventajas de las Aplicaciones Progresivas (PWA):
+### Ventajas de las Aplicaciones Progresivas (PWA):
 
 * Son apps seguras.
 * Funcionan con (casi) cualquier navegador.
@@ -28,7 +28,7 @@ Ventajas de las Aplicaciones Progresivas (PWA):
 * Se pueden enlazar a través de una URL.
 * Se pueden "instalar" anclándolas al escritorio de tu móvil.
 
-Tecnología que se está Empleando:
+### Tecnología que se está Empleando:
 
 * [Gatsbyjs ](https://www.gatsbyjs.com/)es una Biblioteca para [React](https://es.reactjs.org/) que permite que el sitio tenga una velocidad de desplegado notable, esto hará que se cargue ultra rápido en el celular y que los motores de búsqueda como Google le den una alta posición.
 * [NetlifyCMS](https://www.netlifycms.org/docs/intro/) permite el soporte para crear/editar contenido en la App mediante un panel de control de Administracion.
