@@ -11,8 +11,6 @@ tags:
 ---
 En el 2017 nos dimos a la tarea de iniciar nuestras transmisiones por internet.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"> <a href="https://twitter.com/97Xalli/status/916522065460527104">July 6, 2017</a></blockquote>
-
 Y ahora estamos super emocionados de presentar nuestra nueva App para `Radio Xalli 97.9 FM` con soporte para escucharla desde tu computadora o celular sin necesidad de Tener una cuenta de Facebook.  
 
 Esta App es del tipo Progressive Web App (PWA), esto quiere decir que funciona en cualquier tipo de celular tanto Android como IOS, sin tener que darle mantenimiento como aplicación independiente.
@@ -78,8 +76,10 @@ Esta App es del tipo Progressive Web App (PWA), esto quiere decir que funciona e
 * Soporte para Google Analytics support
 
 ## Acciones pendientes
+
 * Crear Cuenta de Netlify
 * Crear Cuenta de Github
 * Crear Cuenta de Disqus
-* Transferir Dominio www.radioxalli979.com.mx para que ocupe la App o Crear nuevo dominio
-* Gestionar Certificado SSL para transmisión segura por HTTP (se recomienda usar )
+* Transferir Dominio www.radioxalli979.com.mx para que ocupe la App 
+* Gestionar Certificado SSL para transmisión segura por HTTP (se recomienda usar let's encrypt)
+* Dado que no se permite mezclar contenidos HTTPS con contenidos HTTP se creo el dominio [radioxalli.live](http://radioxalli.live) para poder hacer la presentación del sitio con la facultad de escuchar la transmisión de la estación.
