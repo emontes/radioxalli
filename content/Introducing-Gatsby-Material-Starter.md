@@ -26,6 +26,21 @@ Esta App es del tipo Progressive Web App (PWA), esto quiere decir que funciona e
 * Se pueden enlazar a través de una URL.
 * Se pueden "instalar" anclándolas al escritorio de tu móvil.
 
+   **Instalación en Android (Casi todos ménos Iphone)**
+
+  1. En tu dispositivo **Android**, abre Chrome .
+  2. Accede al sitio web que quieras **instalar**.
+  3. Toca Añadir a pantalla de inicio.
+  4. Sigue las instrucciones que aparecen en pantalla para instalarlo.
+
+  **Instalar una PWA en iOS (Iphone)**
+
+  1. Accede a la **PWA** y pulsa el botón de Compartir.
+  2. Pulsa la opción Añadir a la pantalla de inicio.
+  3. Añádelo pulsando el botón Añadir.
+
+
+
 ## Tecnología que se está Empleando:
 
 * [Gatsbyjs ](https://www.gatsbyjs.com/)es una Biblioteca para [React](https://es.reactjs.org/) que permite que el sitio tenga una velocidad de desplegado notable, esto hará que se cargue ultra rápido en el celular y que los motores de búsqueda como Google le den una alta posición.
@@ -45,7 +60,6 @@ Esta App es del tipo Progressive Web App (PWA), esto quiere decir que funciona e
 * Categorías
 
   * Una página separada para los posts de cada categoría.
-* Segmento de posts sugeridos
 * Soporte para [Disqus](https://disqus.com), un sistema que permite que los visitantes comenten los posts.
 
   * Notificaciones acerca de nuevos comentarios en disqus
@@ -67,7 +81,6 @@ Esta App es del tipo Progressive Web App (PWA), esto quiere decir que funciona e
   * Schema.org JSONLD (Google Rich Snippets)
   * OpenGraph Tags (Facebook/Pinterest)
   * Twitter Tags (Twitter Cards)
-* RSS feeds
 * Progreso de cargado para redes lentas
 * Soporte Offline
 * Soporte para Web App Manifest
@@ -81,5 +94,5 @@ Esta App es del tipo Progressive Web App (PWA), esto quiere decir que funciona e
 * Crear Cuenta de Github
 * Crear Cuenta de Disqus
 * Transferir Dominio www.radioxalli979.com.mx para que ocupe la App 
-* Gestionar Certificado SSL para transmisión segura por HTTP (se recomienda usar let's encrypt)
+* **Gestionar Certificado SSL para transmisión segura por HTTP (se recomienda usar let's encrypt)**
 * Dado que no se permite mezclar contenidos HTTPS con contenidos HTTP se creo el dominio [radioxalli.live](http://radioxalli.live) para poder hacer la presentación del sitio con la facultad de escuchar la transmisión de la estación.
