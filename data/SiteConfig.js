@@ -4,8 +4,8 @@ const config = {
   siteTitleAlt: "Xalli Radio Comunitaria", // Alternative site title for SEO.
   siteLogo: "/logos/logo-357.png", // Logo used for SEO and manifest.
   siteUrl: "http://radioxalli.live", // Domain of your website without pathPrefix.
-  pathPrefix: "/radio-xalli", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
-  fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
+  pathPrefix: "http://radioxalli.live/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  fixedFooter: true, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "Noticias y eventos de la Comunidad de Xalli, Puebla.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Xalli Radio XHPXA 97.9 FM RSS feed", // Title of the RSS feed
@@ -35,7 +35,7 @@ const config = {
     },
     {
       label: "Email",
-      url: "mailto:vagr9k@gmail.com",
+      url: "mailto:opjuanar@gmail.com",
       iconClassName: "fa fa-envelope",
     },
   ],
